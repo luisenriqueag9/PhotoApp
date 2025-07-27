@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:background="#E0E0E0"
+        android:contentDescription="Foto" />
+
+    <!-- 🔽 Botón de cámara justo debajo de la foto -->
+    <Button
+        android:id="@+id/btnTomarFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tomar Foto"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:layout_marginTop="8dp" />
+
+
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnVerFotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Fotos Guardadas"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
